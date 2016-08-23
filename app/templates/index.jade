@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	title Document
+	link(rel="stylesheet", href="css/main.css")
+body
+	header
+		.container
+			nav.navbar.navbar-default
+				.navbar-header
+					button(type="button", class="navbar-toggle collapsed", data-toggle="collapse", data-target="#bs-example-navbar-collapse-1", aria-expanded="false")
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a(href="index.html", class="navbar-brand") Brand
+				div( id="bs-example-navbar-collapse-1" ).collapse.navbar-collapse
+					ul.nav.navbar-nav
+						li.dropdown
+							a(href="#", data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false").dropdown-toggle.
+								Dropdown<span class="caret"></span>
+							ul.dropdown-menu
+								li
+									a(href="#") 1
+								li
+									a(href="#") 2
+								li
+									a(href="#") 3
+								li
+									a(href="#") 4
+								li
+									a(href="#") 5
+	script(src="js/libs.min.js")
